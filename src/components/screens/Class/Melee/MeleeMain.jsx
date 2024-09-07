@@ -40,9 +40,7 @@ export const MeleeMain = () => {
               </div>
             </div>
           </div>
-      </div>  
-      <div className='flex'>
-          <div>
+          <div className='ml-3'>
             <div>
               <h1 className='text-xl my-2'>Pre Hardmode</h1>
             </div>  
@@ -51,18 +49,15 @@ export const MeleeMain = () => {
               <div className='flex'>
                 <img  src='https://terraria.wiki.gg/images/9/98/Night%27s_Edge.png'/> <Link to={'/meleWeapons/bladeofgrass'}><h1 className='mt-5 text-blue-500 hover:underline'>Nights Edge </h1></Link>
               </div>
-              <div className='flex'>
-                <img  src='https://terraria.wiki.gg/images/2/2d/Starfury.png'/> <Link to={'/meleWeapons/starfury'}><h1 className='mt-3 text-blue-500 hover:underline'>Starfury</h1></Link>
-              </div>
               <div>
                 <h1>Armor:</h1>
                 <div className='flex'>
-                  <img src='https://terraria.wiki.gg/images/9/94/Platinum_armor.png' /> <Link to={''}><h1 className='mt-3 text-blue-500 hover:underline'>Platinum armor</h1></Link>
+                  <img src='https://terraria.wiki.gg/images/f/f1/Molten_armor.png' /> <Link to={''}><h1 className='mt-3 text-blue-500 hover:underline'>Molten armor</h1></Link>
                 </div>
               </div>
             </div>
           </div>
       </div>  
-    </div>
+    </div>  
   )
 }

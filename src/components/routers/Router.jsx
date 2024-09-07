@@ -8,7 +8,7 @@ import {Ranged} from '../screens/Class/Ranged/Ranged'
 import {Summoner} from '../screens/Class/Summoner/Summoner'
 import {Starfury} from '../screens/Class/Melee/MeleeWeapons/Starfury'
 import { BladeOfGrass } from "../screens/Class/Melee/MeleeWeapons/BladeOfGrass"
-import { PlatinumArmor } from "../screens/Class/Melee/MeleArmor/PlatinumArmor"
+import { PlatinumArmor } from "../screens/Class/Melee/MeleeArmor/PlatinumArmor"
 
 export const Router = () => {
   return (
