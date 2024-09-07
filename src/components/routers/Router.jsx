@@ -22,11 +22,8 @@ export const Router = () => {
             <Route element={<Summoner/>} path="/summoner"/>
 
             {/* melee */}
-            <Route element={<Boomerangs/>} path="" />
-            <Route element={} path="" />
-            <Route element={} path="" />
-            <Route element={} path="" />
-            <Route element={} path="" />
+            
+            
         </Routes>
     </BrowserRouter>
   )
