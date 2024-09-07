@@ -27,15 +27,15 @@ export const MeleeMain = () => {
             <div className='ml-2'>
               <h1>Weapons:</h1>
               <div className='flex'>
-                <img  src='https://terraria.wiki.gg/images/8/85/Blade_of_Grass.png'/> <Link to={'/meleWeapons/bladeofgrass'}><h1 className='mt-5 text-blue-500 hover:underline'>Blade of grass</h1></Link>
+                <img  src='https://terraria.wiki.gg/images/8/85/Blade_of_Grass.png'/> <Link to={'/meleeWeapons/bladeofgrass'}><h1 className='mt-5 text-blue-500 hover:underline'>Blade of grass</h1></Link>
               </div>
               <div className='flex'>
-                <img  src='https://terraria.wiki.gg/images/2/2d/Starfury.png'/> <Link to={'/meleWeapons/starfury'}><h1 className='mt-3 text-blue-500 hover:underline'>Starfury</h1></Link>
+                <img  src='https://terraria.wiki.gg/images/2/2d/Starfury.png'/> <Link to={'/meleeWeapons/starfury'}><h1 className='mt-3 text-blue-500 hover:underline'>Starfury</h1></Link>
               </div>
               <div>
                 <h1>Armor:</h1>
                 <div className='flex'>
-                  <img src='https://terraria.wiki.gg/images/9/94/Platinum_armor.png' /> <Link to={''}><h1 className='mt-3 text-blue-500 hover:underline'>Platinum armor</h1></Link>
+                  <img src='https://terraria.wiki.gg/images/9/94/Platinum_armor.png' /> <Link to={'/meleeArmor/platinumArmor'}><h1 className='mt-3 text-blue-500 hover:underline'>Platinum armor</h1></Link>
                 </div>
               </div>
             </div>
@@ -47,12 +47,58 @@ export const MeleeMain = () => {
             <div className='ml-2'>
               <h1>Weapons:</h1>
               <div className='flex'>
-                <img  src='https://terraria.wiki.gg/images/9/98/Night%27s_Edge.png'/> <Link to={'/meleWeapons/bladeofgrass'}><h1 className='mt-5 text-blue-500 hover:underline'>Nights Edge </h1></Link>
+                <img  src='https://terraria.wiki.gg/images/9/98/Night%27s_Edge.png'/> <Link to={'/meleeWeapons/nightsEdge'}><h1 className='mt-5 text-blue-500 hover:underline'>Nights Edge </h1></Link>
               </div>
               <div>
                 <h1>Armor:</h1>
                 <div className='flex'>
-                  <img src='https://terraria.wiki.gg/images/f/f1/Molten_armor.png' /> <Link to={''}><h1 className='mt-3 text-blue-500 hover:underline'>Molten armor</h1></Link>
+                  <img src='https://terraria.wiki.gg/images/f/f1/Molten_armor.png' /> <Link to={'/meleeArmor/moltenArmor'}><h1 className='mt-3 text-blue-500 hover:underline'>Molten armor</h1></Link>
+                </div>
+              </div>
+              <div>
+                <h1>Buffs:</h1>
+                <div className='flex'>
+                  <img src='https://terraria.wiki.gg/images/3/3b/Sharpening_Station.png' /> <Link to={'/meleeBafs/sharpeningStation'}><h1 className='mt-3 text-blue-500 hover:underline'>Sharpening Station</h1></Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='ml-3'>
+            <div>
+              <h1 className='text-xl my-2'>Pre-Mech Bosses</h1>
+            </div>  
+            <div className='ml-2'>
+              <h1>Weapons:</h1>
+              <div className='flex'>
+                <img  src='https://terraria.wiki.gg/images/e/ea/Ice_Sickle.png'/> <Link to={'/meleeWeapons/iceSickle'}><h1 className='mt-5 text-blue-500 hover:underline'>Ice Sickle </h1></Link>
+              </div>
+              <div className='flex'>
+                <img  src='https://terraria.wiki.gg/images/d/d2/Shadowflame_Knife.png'/> <Link to={'/meleeWeapons/shadowflameKnife'}><h1 className='mt-5 text-blue-500 hover:underline'>Shadowflame Knife </h1></Link>
+              </div>
+              <div>
+                <h1>Armor:</h1>
+                <div className='flex'>
+                  <img src='https://terraria.wiki.gg/images/2/24/Titanium_armor_%28old%29.png' /> <Link to={'/meleeArmor/titanumArmor'}><h1 className='mt-3 text-blue-500 hover:underline'>Titanium armor</h1></Link>
+                </div>
+              </div>
+              <div>
+                <h1>Buffs:</h1>
+                <div className='flex'>
+                  <img src='https://terraria.wiki.gg/images/3/3b/Sharpening_Station.png' /> <Link to={'/meleeBaffs/sharpeningStation'}><h1 className='mt-3 text-blue-500 hover:underline'>Sharpening Station</h1></Link>
+                </div>
+                <div className='flex'>
+                  <img src='https://terraria.wiki.gg/images/f/f6/Sake.png' /> <Link to={'/meleeBafs/sake'}><h1 className='mt-3 text-blue-500 hover:underline'>Sake</h1></Link>
+                </div>
+                <div className='flex'>
+                  <img src='https://terraria.wiki.gg/images/7/71/Flask_of_Ichor.png' /> <Link to={'/meleeBafs/ichor'}><h1 className='mt-3 text-blue-500 hover:underline'>Ichor</h1></Link>
+                  <h1 className='mt-3 mx-2'>or</h1>
+                  <img src='https://terraria.wiki.gg/images/0/08/Flask_of_Cursed_Flames.png' /> <Link to={'/meleeBafs/cursedFlames'}><h1 className='mt-3 text-blue-500 hover:underline'>Cursed flames</h1></Link>
+                </div>
+              </div>
+              <div>
+                <h1>Accessories:</h1>
+                <div className='flex'>
+                  <img src='https://terraria.wiki.gg/images/2/24/Titanium_armor_%28old%29.png' /> <Link to={'/meleeArmor/titanumArmor'}><h1 className='mt-3 text-blue-500 hover:underline'>Titanium armor</h1></Link>
                 </div>
               </div>
             </div>
