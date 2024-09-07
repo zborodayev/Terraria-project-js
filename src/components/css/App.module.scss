@@ -1,0 +1,15 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.classes{
+  @apply text-xl m-2 hover:text-gray-700 duration-150
+}
+.main{
+  margin: 1.25rem;
+  border: 8px solid rgba(145, 63, 1, 0.483);
+  height: 45.5rem;
+  padding: 20px;
+  background-color:rgba(145, 63, 1, 0.483);
+}
