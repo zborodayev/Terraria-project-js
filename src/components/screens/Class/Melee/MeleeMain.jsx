@@ -22,7 +22,7 @@ export const MeleeMain = () => {
       <div className='flex'>
           <div>
             <div>
-              <h1 className='text-xl my-2'>Pre Bosses1</h1>
+              <h1 className='text-xl my-2'>Pre Bosses</h1>
             </div>  
             <div className='ml-2'>
               <h1>Weapons:</h1>
