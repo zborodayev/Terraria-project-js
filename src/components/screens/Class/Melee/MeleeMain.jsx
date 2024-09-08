@@ -98,7 +98,10 @@ export const MeleeMain = () => {
               <div>
                 <h1>Accessories:</h1>
                 <div className='flex'>
-                  <img src='https://terraria.wiki.gg/images/2/24/Titanium_armor_%28old%29.png' /> <Link to={'/meleeArmor/titanumArmor'}><h1 className='mt-3 text-blue-500 hover:underline'>Titanium armor</h1></Link>
+                  <img src='https://terraria.wiki.gg/images/d/d7/Warrior_Emblem.png' /> <Link to={'/meleeAcs/warriorEmblem'}><h1 className='mt-3 text-blue-500 hover:underline'>Warrior Emblem</h1></Link>
+                </div>
+                <div className='flex'>
+                  <img src='https://terraria.wiki.gg/images/0/05/Berserker%27s_Glove.png' /> <Link to={'/meleeAcs/berserkerGlove'}><h1 className='mt-3 text-blue-500 hover:underline'>Berserker glove</h1></Link>
                 </div>
               </div>
             </div>

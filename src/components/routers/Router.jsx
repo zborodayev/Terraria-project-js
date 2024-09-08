@@ -18,6 +18,8 @@ import { TitaniumArmor } from "../screens/Class/Melee/MeleeArmor/TitaniumArmor"
 import { Sake } from "../screens/Class/Melee/MeleeBuffs/Sake"
 import { Ichor } from "../screens/Class/Melee/MeleeBuffs/Ichor"
 import { CursedFlames } from "../screens/Class/Melee/MeleeBuffs/CursedFlames"
+import { WarriorEmblem } from "../screens/Class/Melee/MeleeAcs/WarriorEmblem"
+import { BerserkerGlove } from "../screens/Class/Melee/MeleeAcs/BerserkerGlove"
 
 export const Router = () => {
   return (
@@ -43,11 +45,12 @@ export const Router = () => {
             <Route element={<Sake/>} path="/meleeBafs/sake"/>
             <Route element={<Ichor/>} path="/meleeBafs/ichor" />
             <Route element={<CursedFlames/>} path="/meleeBafs/cursedFlames" />
-
             <Route element={<IceSickle/>} path="/meleeWeapons/iceSickle" />
             <Route element={<ShadowflameKnife/>} path="/meleeWeapons/shadowflameKnife"/>
             <Route element={<TitaniumArmor/>} path="/meleeArmor/titanumArmor"/>
-            
+            <Route element={<WarriorEmblem/>} path="/meleeAcs/warriorEmblem"/>
+            <Route element={<BerserkerGlove/>} path="/meleeAcs/berserkerGlove"/>
+
         </Routes>
     </BrowserRouter>
   )
